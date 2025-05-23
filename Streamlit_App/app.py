@@ -40,4 +40,7 @@ if st.button('Detect Duplicate'):
     else:
         query = helper.query_point_creator(q1, q2)
         result = model.predict(query)[0]
-        st.success("✅ Duplicate") if result else st.info("❌ Not Duplicate")
+        if result:
+            st.success("✅ Duplicate")
+        else:
+            st.info("❌ Not Duplicate")
