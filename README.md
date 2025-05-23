@@ -3,7 +3,6 @@
 
 [![Streamlit App](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)](https://duplicatedetector.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 DupDetect is a machine learning–powered web application that identifies whether two user-submitted questions are duplicates. Inspired by Quora's question pair challenge, this project combines NLP techniques, feature engineering, and classification models to deliver accurate and real-time predictions via an intuitive Streamlit interface.
 
@@ -56,14 +55,6 @@ yprashanna-dupdetect/
 │   └── stopwords.pkl                        # Stopwords used in app logic
 └── .devcontainer/
     └── devcontainer.json                    # Optional dev environment config (VS Code Remote)
-
-├── app.py                 # Streamlit frontend logic
-├── helper.py              # Feature engineering & preprocessing logic
-├── model.pkl              # Trained classification model
-├── cv.pkl                 # CountVectorizer or TF-IDF vectorizer
-├── stopwords.pkl          # Stopword list used in preprocessing
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
 ```
 
 ---
